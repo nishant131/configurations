@@ -28,5 +28,8 @@
     "scm.diffDecorationsGutterWidth": 2,
     "editor.glyphMargin": false,
     "editor.fontLigatures": true,
-    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace"
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "git.mergeEditor": true,
+    "terminal.integrated.shellIntegration.enabled": true,
+    "files.insertFinalNewline": true
 }
