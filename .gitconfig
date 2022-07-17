@@ -1,0 +1,15 @@
+[user]
+	name = Nishant Gaglani
+	email = nishant.gaglani@workmail.com
+[includeIf "gitdir:~/workdir/"]
+	path = ~/workdir/.gitconfig-work
+[includeIf "gitdir:~/personaldir/"]
+	path = ~/personaldir/.gitconfig-personal
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+# Add this to automatically set the upstream
+[push]
+	autoSetupRemote = true
