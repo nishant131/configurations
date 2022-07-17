@@ -16,5 +16,17 @@
     "terminal.integrated.fontWeightBold": "normal",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "GitHub Dark Default",
-    "explorer.autoReveal": false
+    "explorer.autoReveal": false,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.git": false
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false,
+    "leetcode.endpoint": "leetcode",
+    "leetcode.workspaceFolder": "/Users/nishant/personal/sde-sheet",
+    "scm.diffDecorationsGutterWidth": 2,
+    "editor.glyphMargin": false,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace"
 }
