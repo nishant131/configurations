@@ -4,7 +4,7 @@
     "editor.fontSize": 16,
     "markdown.preview.fontSize": 16,
     "debug.console.fontSize": 16,
-    "scm.inputFontSize": 16,
+    "scm.inputFontSize": 12,
     "editor.renderWhitespace": "all",
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active",
@@ -31,5 +31,7 @@
     "editor.fontFamily": "'Hack Nerd Font', Menlo, Monaco, 'Courier New', monospace",
     "git.mergeEditor": true,
     "terminal.integrated.shellIntegration.enabled": true,
-    "files.insertFinalNewline": true
+    "files.insertFinalNewline": true,
+    "editor.minimap.enabled": false,
+    "scm.showActionButton": false
 }
