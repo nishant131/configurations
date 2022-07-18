@@ -27,7 +27,7 @@ zstyle ':vcs_info:git*+set-message:*' hooks git-untracked
 
 zstyle ':vcs_info:*' check-for-changes true
 # zstyle ':vcs_info:git:*' formats " %r/%S %b %m%u%c "
-zstyle ':vcs_info:git:*' formats " on %{$fg[blue]%}(%{$fg[red]%}%m%u%c%{$fg[yellow]%} %b%{$fg[blue]%})"
+zstyle ':vcs_info:git:*' formats " on %{$fg[blue]%}(%{$fg[red]%}%m%u%c%{$fg[yellow]%}  %b%{$fg[blue]%})"
 # zstyle ':vcs_info:git:*' formats ' %F{240}(%b)%r%f'
 
 # format our main prompt for hostname current folder, and permissions.
