@@ -1,5 +1,5 @@
 <!-- Make sure to update the URL while cloning is changed to git@github.com-personal-github-username:username/repo.git -->
-Host github.com-personal-github-username
+Host github.personal-github-username.com
   HostName github.com
   User git
   IdentityFile ~/.ssh/id_ed25519_personal-key

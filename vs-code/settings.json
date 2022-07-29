@@ -15,7 +15,6 @@
     "terminal.integrated.defaultProfile.osx": "zsh",
     "terminal.integrated.fontWeightBold": "normal",
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "GitHub Dark Default",
     "explorer.autoReveal": false,
     "files.exclude": {
         "**/__pycache__": true,
@@ -29,9 +28,9 @@
     "editor.glyphMargin": false,
     "editor.fontLigatures": true,
     "editor.fontFamily": "'Hack Nerd Font', Menlo, Monaco, 'Courier New', monospace",
-    "git.mergeEditor": true,
     "terminal.integrated.shellIntegration.enabled": true,
     "files.insertFinalNewline": true,
     "editor.minimap.enabled": false,
-    "scm.showActionButton": false
+    "scm.showActionButton": false,
+    "workbench.colorTheme": "GitHub Dark Default"
 }
