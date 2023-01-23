@@ -3,7 +3,7 @@ Host github.personal-github-username.com
   HostName github.com
   User git
   IdentityFile ~/.ssh/id_ed25519_personal-key
-  IdentitiesOnly yes
+  IdentitiesOnly yes  # IdentityFile, only appends the identity file to list of keys/ identity files. IdentitiesOnly will make sure that ssh uses only the IdentityFile for verification and ignores the default ones, like id_ed25519, id_rsa, etc.
 
 Host *
   AddKeysToAgent yes
