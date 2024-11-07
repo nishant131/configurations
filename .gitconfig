@@ -2,6 +2,7 @@
 	name = Nishant Gaglani
 	email = nishant.gaglani@workmail.com
 [includeIf "gitdir:~/workdir/"]
+	# this is local .gitconfig path containing work name and email
 	path = ~/workdir/.gitconfig-work
 [includeIf "gitdir:~/personaldir/"]
 	path = ~/personaldir/.gitconfig-personal
@@ -13,3 +14,6 @@
 # Add this to automatically set the upstream
 [push]
 	autoSetupRemote = true
+# Add this to remove git diffs from the terminal
+[pager]
+	diff = less -+F -+X

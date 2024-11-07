@@ -1,12 +1,9 @@
 {
-    "terminal.integrated.fontSize": 16,
-    "window.zoomLevel": 1,
     "editor.fontSize": 16,
     "markdown.preview.fontSize": 16,
     "debug.console.fontSize": 16,
     "scm.inputFontSize": 12,
     "editor.renderWhitespace": "all",
-    "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active",
     "markdown-preview-github-styles.colorTheme": "dark",
     "security.workspace.trust.untrustedFiles": "open",
@@ -20,17 +17,112 @@
         "**/__pycache__": true,
         "**/.git": false
     },
-    "diffEditor.ignoreTrimWhitespace": false,
-    "diffEditor.renderSideBySide": false,
     "leetcode.endpoint": "leetcode",
-    "leetcode.workspaceFolder": "/Users/nishant/personal/sde-sheet",
+    "leetcode.workspaceFolder": "/Users/nishant/personal/sde-sheet-challenge",
     "scm.diffDecorationsGutterWidth": 2,
     "editor.glyphMargin": false,
     "editor.fontLigatures": true,
     "editor.fontFamily": "'Hack Nerd Font', Menlo, Monaco, 'Courier New', monospace",
     "terminal.integrated.shellIntegration.enabled": true,
     "files.insertFinalNewline": true,
-    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "GitHub Dark Default",
+    "leetcode.defaultLanguage": "cpp",
+    "cSpell.userWords": [
+        "backref",
+        "ikepolicy",
+        "ilike",
+        "ipsecpolicy",
+        "jsonify",
+        "nishant",
+        "Organisation",
+        "organisations",
+        "ratelimit",
+        "restplus",
+        "sqlalchemy",
+        "vpnservice",
+        "WORKERNODE"
+    ],
+    "terminal.integrated.shellIntegration.history": 1000,
+    "yaml.schemas": {
+        "file:///Users/nishant/.vscode/extensions/atlassian.atlascode-3.0.2/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "atlascode.bitbucket.enabled": false,
+    "atlascode.jira.jqlList": [
+        {
+            "id": "44be468e-b476-42b3-9e50-7d7dd87aecfb",
+            "enabled": true,
+            "name": "My coredge-jira Issues",
+            "query": "assignee = currentUser() ORDER BY resolution DESC",
+            "siteId": "bd36bf80-53a6-4f92-aa3c-787b38bbd87f",
+            "monitor": true
+        },
+        {
+            "id": "18aa4aec-f9ff-4782-80d0-314e122c73e9",
+            "siteId": "bd36bf80-53a6-4f92-aa3c-787b38bbd87f",
+            "name": "custom",
+            "query": "text ~ \"nks stories\"",
+            "enabled": true,
+            "monitor": false
+        }
+    ],
+    "atlascode.jira.explorer.fetchAllQueryResults": true,
+    "atlascode.jira.explorer.refreshInterval": 120,
+    "terminal.integrated.fontSize": 15,
+    "git.mergeEditor": false,
     "scm.showActionButton": false,
-    "workbench.colorTheme": "GitHub Dark Default"
+    "scm.repositories.sortOrder": "name",
+    "atlascode.jira.lastCreateSiteAndProject": {
+        "siteId": "bd36bf80-53a6-4f92-aa3c-787b38bbd87f",
+        "projectKey": ""
+    },
+    "terminal.integrated.persistentSessionReviveProcess": "onExitAndWindowClose",
+    "gitlens.graph.statusBar.enabled": false,
+    "editor.stickyScroll.enabled": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "vs-kubernetes": {
+        "vs-kubernetes.knownKubeconfigs": [
+            "/Users/nishant/Downloads/new.yaml",
+            "/Users/nishant/nic-cloud-gitlab/kubernetes-files/mgmt-dev-uat-config.yaml",
+            "/Users/nishant/Downloads/panamax-dev.yml",
+            "/Users/nishant/nic-cloud-gitlab/kubernetes-files/devcloud.yaml"
+        ],
+        "vs-kubernetes.kubeconfig": "/Users/nishant/Downloads/panamax-dev.yml",
+        "vscode-kubernetes.helm-path.mac": "/Users/nishant/.vs-kubernetes/tools/helm/darwin-arm64/helm",
+        "vs-kubernetes.crd-code-completion": "enabled"
+    },
+    "diffEditor.renderSideBySide": false,
+    "sqltools.results.limit": -1,
+    "sqltools.results.location": "current",
+    "files.associations": {
+        "/etc/hosts": "shellscript"
+    },
+    "files.watcherExclude": {
+        "**/.DS_Store": true
+    },
+    "editor.autoClosingDelete": "always",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.layoutControl.enabled": false,
+    "window.commandCenter": false,
+    "git.showCommitInput": false,
+    "python.terminal.activateEnvironment": false,
+    "window.zoomLevel": 1,
+    "maven.executable.path": "/Users/nishant/apache-maven-3.9.6/bin/mvn",
+    "[cpp]": {
+        "editor.wordBasedSuggestions": "off",
+        "editor.suggest.insertMode": "replace",
+        "editor.semanticHighlighting.enabled": true
+    },
+    "C_Cpp.default.compilerPath": "/opt/homebrew/bin/g++-13",
+    "vscode-kubernetes.kubectl-path": "/opt/homebrew/bin/kubectl",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // "terminal.integrated.minimumContrastRatio": 21
 }
