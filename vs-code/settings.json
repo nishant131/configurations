@@ -19,7 +19,6 @@
     },
     "leetcode.endpoint": "leetcode",
     "leetcode.workspaceFolder": "/Users/nishant/personal/sde-sheet-challenge",
-    "scm.diffDecorationsGutterWidth": 2,
     "editor.glyphMargin": false,
     "editor.fontLigatures": true,
     "editor.fontFamily": "'Hack Nerd Font', Menlo, Monaco, 'Courier New', monospace",
@@ -44,26 +43,10 @@
     ],
     "terminal.integrated.shellIntegration.history": 1000,
     "yaml.schemas": {
-        "file:///Users/nishant/.vscode/extensions/atlassian.atlascode-3.0.2/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+        "file:///Users/nishantgaglani/.vscode/extensions/atlassian.atlascode-4.0.4/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
     },
     "atlascode.bitbucket.enabled": false,
     "atlascode.jira.jqlList": [
-        {
-            "id": "44be468e-b476-42b3-9e50-7d7dd87aecfb",
-            "enabled": true,
-            "name": "My coredge-jira Issues",
-            "query": "assignee = currentUser() ORDER BY resolution DESC",
-            "siteId": "bd36bf80-53a6-4f92-aa3c-787b38bbd87f",
-            "monitor": true
-        },
-        {
-            "id": "18aa4aec-f9ff-4782-80d0-314e122c73e9",
-            "siteId": "bd36bf80-53a6-4f92-aa3c-787b38bbd87f",
-            "name": "custom",
-            "query": "text ~ \"nks stories\"",
-            "enabled": true,
-            "monitor": false
-        }
     ],
     "atlascode.jira.explorer.fetchAllQueryResults": true,
     "atlascode.jira.explorer.refreshInterval": 120,
@@ -82,14 +65,9 @@
         "editor.formatOnType": true
     },
     "vs-kubernetes": {
-        "vs-kubernetes.knownKubeconfigs": [
-            "/Users/nishant/Downloads/new.yaml",
-            "/Users/nishant/nic-cloud-gitlab/kubernetes-files/mgmt-dev-uat-config.yaml",
-            "/Users/nishant/Downloads/panamax-dev.yml",
-            "/Users/nishant/nic-cloud-gitlab/kubernetes-files/devcloud.yaml"
-        ],
-        "vs-kubernetes.kubeconfig": "/Users/nishant/Downloads/panamax-dev.yml",
-        "vscode-kubernetes.helm-path.mac": "/Users/nishant/.vs-kubernetes/tools/helm/darwin-arm64/helm",
+        "vs-kubernetes.knownKubeconfigs": [],
+        "vs-kubernetes.kubeconfig": "",
+        "vscode-kubernetes.helm-path.mac": "",
         "vs-kubernetes.crd-code-completion": "enabled"
     },
     "diffEditor.renderSideBySide": false,
@@ -103,9 +81,6 @@
     },
     "editor.autoClosingDelete": "always",
     "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "workbench.layoutControl.enabled": false,
@@ -124,5 +99,35 @@
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true,
+    "prettier.trailingComma": "all",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+    "prettier.singleQuote": true,
+    "prettier.jsxSingleQuote": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "scm.diffDecorationsGutterWidth": 2,
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // "workbench.panel.defaultLocation": "left",
+    "chat.instructionsFilesLocations": {
+        ".github/instructions": true
+    },
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    }
     // "terminal.integrated.minimumContrastRatio": 21
 }
