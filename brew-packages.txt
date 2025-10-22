@@ -51,7 +51,6 @@ lzo
 mc
 minikube
 minio
-modular
 mpdecimal
 mpfr
 ncurses
@@ -78,7 +77,6 @@ tcl-tk
 telnet
 tree
 userspace-rcu
-vault
 watch
 wget
 xorgproto
@@ -88,6 +86,4 @@ zsh-completions
 zsh-history-substring-search
 zsh-syntax-highlighting
 zstd
-gitkraken
-pgadmin4
 stats

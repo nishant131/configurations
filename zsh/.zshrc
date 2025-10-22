@@ -50,4 +50,8 @@ source /opt/homebrew/share/zsh-history-substring-search/zsh-history-substring-se
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-source /Users/nishant/.config/broot/launcher/bash/br
+if type brew &>/dev/null; then
+    FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+    autoload -Uz compinit
+    compinit
+fi
